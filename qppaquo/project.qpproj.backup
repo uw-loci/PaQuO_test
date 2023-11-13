@@ -1,0 +1,217 @@
+{
+  "version": "0.4.3",
+  "createTimestamp": 1699323787821,
+  "modifyTimestamp": 1699323787821,
+  "uri": "file:/D:/Python/paquo/qppaquo/project.qpproj",
+  "lastID": 5,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.openslide.OpenslideServerBuilder",
+        "uri": "file:/D:/ImageAnalysisFiles/OS-2.ndpi",
+        "args": []
+      },
+      "entryID": 1,
+      "randomizedName": "af4b73a1-3965-4299-8b53-0cfe58c96cfc",
+      "imageName": "OS-2.ndpi",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.openslide.OpenslideServerBuilder",
+        "uri": "file:/D:/ImageAnalysisFiles/OS-3.ndpi",
+        "args": []
+      },
+      "entryID": 2,
+      "randomizedName": "a9f354bd-2238-485a-bc63-ea0769531776",
+      "imageName": "OS-3.ndpi",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.imagej.images.servers.ImageJServerBuilder",
+          "uri": "file:/D:/QuPath_projects/PDAC_CP%20annotation%20validation/image_export/Copy%20of%2088_region_2_original.tif",
+          "args": [],
+          "metadata": {
+            "name": "Copy of 88_region_2_original.tif",
+            "width": 4036,
+            "height": 5055,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 4036,
+                "height": 5055
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.5039001874508697,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.5039001874508697,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "µm"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 4036,
+            "preferredTileHeight": 5055
+          }
+        },
+        "metadata": {
+          "name": "Copy of 88_region_2_original.tif",
+          "width": 4036,
+          "height": 5055,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 4036,
+              "height": 5055
+            },
+            {
+              "downsample": 4.0,
+              "width": 1009,
+              "height": 1263
+            },
+            {
+              "downsample": 16.0,
+              "width": 252,
+              "height": 315
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "µm"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "7b1870a0-3a47-4b78-af94-ea9cf49c64e0",
+      "imageName": "Copy of 88_region_2_original.tif",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.imagej.images.servers.ImageJServerBuilder",
+        "uri": "file:///D:/QuPath_projects/PDAC_CP%20annotation%20validation/image_export/Copy%20of%2040_region_4_original.tif",
+        "args": [],
+        "metadata": {
+          "name": "Copy of 40_region_4_original.tif",
+          "width": 1260,
+          "height": 1155,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 1260,
+              "height": 1155
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "µm"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 1260,
+          "preferredTileHeight": 1155
+        }
+      },
+      "entryID": 5,
+      "randomizedName": "e6483678-2bc9-4c9d-b1c2-715a982fe0dd",
+      "imageName": "Copy of 40_region_4_original.tif",
+      "metadata": {}
+    }
+  ]
+}

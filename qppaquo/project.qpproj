@@ -1,0 +1,156 @@
+{
+  "version": "0.5.0-rc2",
+  "createTimestamp": 1699323787821,
+  "modifyTimestamp": 1699323787821,
+  "uri": "file:/D:/Python/paquo/qppaquo/project.qpproj",
+  "lastID": 4,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.openslide.OpenslideServerBuilder",
+        "uri": "file:/D:/ImageAnalysisFiles/OS-2.ndpi",
+        "args": []
+      },
+      "entryID": 1,
+      "randomizedName": "49103d09-eca5-476c-b26c-8b31a58a9fc0",
+      "imageName": "OS-2.ndpi",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.openslide.OpenslideServerBuilder",
+        "uri": "file:/D:/ImageAnalysisFiles/OS-3.ndpi",
+        "args": []
+      },
+      "entryID": 2,
+      "randomizedName": "21cdb8d2-3432-4012-ae4d-d8f1383e1194",
+      "imageName": "OS-3.ndpi",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.imagej.images.servers.ImageJServerBuilder",
+          "uri": "file:/D:/QuPath_projects/PDAC_CP%20annotation%20validation/image_export/Copy%20of%2088_region_2_original.tif",
+          "args": [],
+          "metadata": {
+            "name": "Copy of 88_region_2_original.tif",
+            "width": 4036,
+            "height": 5055,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 4036,
+                "height": 5055
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 0.5039001874508697,
+                "unit": "µm"
+              },
+              "pixelHeight": {
+                "value": 0.5039001874508697,
+                "unit": "µm"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "µm"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 4036,
+            "preferredTileHeight": 5055
+          }
+        },
+        "metadata": {
+          "name": "Copy of 88_region_2_original.tif",
+          "width": 4036,
+          "height": 5055,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 4036,
+              "height": 5055
+            },
+            {
+              "downsample": 4.0,
+              "width": 1009,
+              "height": 1263
+            },
+            {
+              "downsample": 16.0,
+              "width": 252,
+              "height": 315
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.5039001874508697,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "µm"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "0f71375a-4d71-4fc7-b2e4-050e7d6f3153",
+      "imageName": "Copy of 88_region_2_original.tif",
+      "metadata": {}
+    }
+  ]
+}
