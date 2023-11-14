@@ -224,7 +224,7 @@ def create_qp_project(qpproj_dir_path, image_dir=None, metadata=None):
 
 # 2 involves the least additional file creation - but what can we do with shapely 
 def get_shapely_annotations(qp):
-    with QuPathProject(current_project, mode='r') as qp:
+    with QuPathProject(qp, mode='r') as qp:
         print("opened", qp.name)
         # TODO REPLACE WITH SEARCH FOR SPECIFIC IMAGE??
         for image in qp.images:
