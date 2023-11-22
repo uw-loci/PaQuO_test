@@ -2,6 +2,7 @@
 from paquo._config import settings, to_kwargs
 from paquo.jpype_backend import start_jvm, JClass
 
+#do all of this in subprocess using multiprocessing
 args = to_kwargs(settings)
 qupath_version = start_jvm(finder_kwargs=args)
 print(f"QuPath version: {qupath_version}")
@@ -19,3 +20,6 @@ class launchQuPath:
     @jpype.JOverride
     def run(self):
         qupathGUI.launchQuPath()
+
+#multiprocessing might be an option
+# p=process
